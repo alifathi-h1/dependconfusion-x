@@ -64,7 +64,7 @@ class DependencyConfusion:
 				self.lock.acquire()
 				if len(vulnerable_depen) > 0:
 					self.print_result(Fore.GREEN, "\n[**] " + str(host) + ":\n[++] Valid Dependencies: "+ str(valid_depen) + Fore.RED+"\n[--] Vulnerable dependencies:"+ str(vulnerable_depen)+"\n")
-				else:
+				elif valid_depen != 0:
 					self.print_result(Fore.GREEN, "\n[**] " + str(host) + ":\n[++] Valid Dependencies: "+ str(valid_depen)+"\n")					
 				self.lock.release()
 
