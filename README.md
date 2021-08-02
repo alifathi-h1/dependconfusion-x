@@ -4,7 +4,7 @@
 </p>
 
 
-DependConfusion-X Tool is written in Python3, and allows security researcher/bug bounty hunter to scan and monitor list of hosts for Dependency Confusion. Currently, it extracts application dependencies from ```https://example.com/package.json```, and tries to find them on https://registry.npmjs.org. 
+DependConfusion-X Tool is written in Python3 which allows security researcher/bug bounty hunter to scan and monitor list of hosts for Dependency Confusion. Currently, it extracts application dependencies from ```https://example.com/package.json```, and tries to find unclaimed dependency on https://registry.npmjs.org. 
 
 
 <img width="1308" alt="image" src="https://user-images.githubusercontent.com/55149010/127814435-a86b4123-41a9-4d8d-8718-34cf6e36caa2.png">
