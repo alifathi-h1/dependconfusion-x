@@ -4,8 +4,9 @@
 </p>
 
 
-DependConfusion-X Tool is written in Python3 which allows security researcher/bug bounty hunter to scan and monitor list of hosts for Dependency Confusion. Currently, it extracts application dependencies from ```https://example.com/package.json```, and tries to find unclaimed dependency on https://registry.npmjs.org. 
+DependConfusion-X Tool is written in Python3 which allows security researcher/bug bounty hunter to scan and monitor list of hosts for [Dependency Confusion](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610). Currently, it extracts application dependencies from ```https://example.com/package.json```, and tries to find unclaimed dependency on https://registry.npmjs.org. 
 
+<br>
 
 <img width="1308" alt="image" src="https://user-images.githubusercontent.com/55149010/127814435-a86b4123-41a9-4d8d-8718-34cf6e36caa2.png">
 
@@ -30,7 +31,7 @@ DependConfusion-X Tool is written in Python3 which allows security researcher/bu
 
 * To enable Dependabot for Org repos: 
 
-   ```python3 dependconfusion-x.py -l hosts_file [-slack, --threads 20] ```
+   ```python3 dependconfusion-x.py -l hosts_file [--slack, --threads 20] ```
    
 
 
