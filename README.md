@@ -29,7 +29,7 @@ DependConfusion-X Tool is written in Python3 which allows security researcher/bu
 
 ## Usage
 
-* To enable Dependabot for Org repos: 
+* To run DependConfusion-X: 
 
    ```python3 dependconfusion-x.py -l hosts_file [--slack, --threads 20] ```
    
